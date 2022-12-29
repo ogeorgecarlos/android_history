@@ -28,6 +28,7 @@
 body{
     background-color: var(--cor0);
     font-family: var(--fonte-padrao);
+    min-width: 200px;
 }
 
 header{
@@ -35,7 +36,8 @@ header{
     display: flex;
     flex-direction: column;
     min-height: 130px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
     padding:20px;
     text-align: center;
     margin: auto;
@@ -67,7 +69,8 @@ nav{
     padding:20px;
     padding-top:10px;
     padding-bottom:10px;
-    width: 100%;
+    max-width: 100%;
+    min-width: 200px;
 }
 
 nav > a{
@@ -88,7 +91,7 @@ nav > a:hover{
 main{
     background-color: white;
     max-width: 1000px;
-    min-width: 300px;
+    min-width: 200px;
     margin: auto;
     margin-bottom: 30px;
     padding: 20px;
